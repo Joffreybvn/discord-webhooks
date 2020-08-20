@@ -12,7 +12,7 @@
       "title": "{{EntryTitle}}",
       "url": "{{EntryUrl}}",
       "description": "{{EntryContent}}",
-      "color": 15258703,
+      "color": 15630383,
       "thumbnail": {
         "url": "{{EntryImageUrl}}"
       },
