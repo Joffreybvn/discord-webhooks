@@ -2,18 +2,20 @@
 {
   "username": "RSS Webhook",
   "avatar_url": "https://i.imgur.com/zwBAhNE.png",
-  "content": "[{{EntryTitle}}]({{EntryUrl}})",
   "embeds": [
     {
       "title": "{{EntryTitle}}",
       "url": "{{EntryUrl}}",
-      "description": "{{EntryContent}}",
+      "description": "Posté par {{EntryAuthor}}",
       "color": 15630383,
       "thumbnail": {
-        "url": "https://i.imgur.com/NJKCvWg.png"
+        "url": "https://i.imgur.com/2mqNeP4.png"
+      },
+      "image": {
+        "url": "{{EntryImageUrl}}"
       },
       "footer": {
-        "text": "Webhook de Joffrey"
+        "text": "{{EntryPublished}} - webhook de Joffrey"
       }
     }
   ]
