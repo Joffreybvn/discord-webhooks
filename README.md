@@ -36,7 +36,7 @@ Before using Webhooks you have to know the structure. All elements listed here a
   * `title` : `[string]` - title of embed
   * `url` : `[url of website]` - url of embed. If `title` was used, it becomes hyperlink
   * `description` : `[string]` - description text
-  * `color` : `[number]` - color code of the embed. You have to use Decimal numeral system, not Hexadecimal. Use [color picker](http://htmlcolorcodes.com/color-picker/) and [converter](http://www.binaryhexconverter.com/hex-to-decimal-converter)
+  * `color` : `[number]` - color code of the embed. You have to use **Decimal** numeral system, not Hexadecimal. Use [color picker](http://htmlcolorcodes.com/color-picker/) and a [converter](https://convertingcolors.com/)
   * `fields` : `[array]` - array of embed field objects
     * `name` : `[string]` - name of the field
     * `value` : `[string]` - value of the field
@@ -148,33 +148,10 @@ Visit [IFTTT](https://ifttt.com/) and create an account (if you haven't one).
   * [JSON Editor Online](http://www.jsoneditoronline.org/)
 * If the webhook *doesn't work*, check log for errors. **My Applets** -> *choose applet* -> *click gear* -> __*View activity log*__. `Maker error` means your JSON body has errors.
 * Discord has built-in embeds for Twitter, Youtube and other sites so you can just add the link to the webhook: `{"content": "{{Link}}"}`.
-* Too hard? Use the [picture guide](https://imgur.com/a/Zkdgo) instead!
 
 ## Examples
 
-### Reddit
+- **RSS**: See [this RSS feed example](https://github.com/Joffreybvn/discord-webhooks/blob/master/feed/rss.md)
+- **Twitter**: See [this tweet feed example](https://github.com/Joffreybvn/discord-webhooks/blob/master/feed/rss.md)
 
-```json
-{
-  "embeds": [
-    {
-      "title": "{{Title}}",
-      "description": "[Link]({{PostURL}})",
-      "image": {
-        "url": "{{ImageURL}}"
-      },
-      "footer": {
-        "text": "Author: {{Author}}"
-      }
-    }
-  ]
-}
-```
-
-### Youtube
-
-```json
-{
-  "content": "{{Url}}"
-}
-```
+- **Allan Turing Bot**: See [how it works](https://github.com/Joffreybvn/discord-webhooks/blob/master/alarm/allan-turing.md)
