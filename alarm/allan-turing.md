@@ -1,6 +1,6 @@
 
 # Allan Turing
-Codes du bot pour vous rapeller les pauses, le pointage et les meets.
+Codes du bot pour rapeller les pauses, le pointage et les meets.
 
 ## Comment @mentionner via un Webhook ?
 1. Taper la commande `\@Votre Mention`
