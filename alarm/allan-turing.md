@@ -1,5 +1,5 @@
 
-# Allan Turing
+# Alan Turing
 Codes du bot pour rapeller les pauses, le pointage et les meets.
 
 ## Comment @mentionner via un Webhook ?
@@ -14,7 +14,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Mardi - Mercredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "Salut <@&745193069946863626> ! Le dernier qui pointe à perdu: [Becode](https://my.becode.org/dashboard)."
 }
@@ -25,9 +25,9 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Lundi - Jeudi - Vendredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
-  "content": "Salut <@&745193069946863626> ! On commence dans *15 minutes* sur [Google Meet](https://meet.google.com/hfe-twue-vsb). Et pointe aussi sur [Becode](https://my.becode.org/dashboard) !"
+  "content": "Bonjour à tous ! On commence dans *15 minutes* sur [Google Meet](https://meet.google.com/hfe-twue-vsb). Et pointez sur [Becode](https://my.becode.org/dashboard)."
 }
 ```
 
@@ -36,9 +36,9 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Lundi - Mardi - Mercredi - Jeudi - Vendredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
-  "content": "Un bon lunch commence par un **pointage** sur [Becode](https://my.becode.org/dashboard). Bon appétit !"
+  "content": "Un bon lunch commence par un bon **pointage** sur [Becode](https://my.becode.org/dashboard). Bon appétit !"
 }
 ```
 
@@ -47,7 +47,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Mardi - Mercredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "La veille démarre dans **15 minutes** ! **Pointez** sur [Becode](https://my.becode.org/dashboard)."
 }
@@ -58,7 +58,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Lundi - Jeudi - Vendredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "La veille démarre dans **15 minutes** sur [Google Meet](https://meet.google.com/hfe-twue-vsb). Et **pointez** aussi sur [Becode](https://my.becode.org/dashboard)."
 }
@@ -69,7 +69,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Lundi - Jeudi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "Les <@&745193069946863626>, le **débrief** commence dans **15 minutes** sur [Google Meet](https://meet.google.com/hfe-twue-vsb) !"
 }
@@ -80,7 +80,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Vendredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "Lequel des <@&745193069946863626> gagnera une gourde durant le [Kahoot](https://meet.google.com/hfe-twue-vsb) aujourd'hui ? Ca commence dans **10 minutes** !"
 }
@@ -91,7 +91,7 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
  - **Jours**: Lundi - Mardi - Mercredi - Jeudi - Vendredi
 ```json
 {
-  "username": "Allan Turing",
+  "username": "Alan Turing",
   "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
   "content": "**Pointez** sur [Becode](https://my.becode.org/dashboard), et passez une bonne soirée !"
 }
