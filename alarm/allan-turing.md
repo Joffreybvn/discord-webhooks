@@ -75,6 +75,17 @@ Codes du bot pour rapeller les pauses, le pointage et les meets.
 }
 ```
 
+### Pause 15h00 - All
+ - **Trigger**: 15h00
+ - **Jours**: Lundi - Mardi - Mercredi - Jeudi - Vendredi
+```json
+{
+  "username": "Alan Turing",
+  "avatar_url": "https://i.imgur.com/JD51N3v.jpg",
+  "content": "C'est encore l'heure de la **pause** ! 15 minutes de répit."
+}
+```
+
 ### Débriefing 16h45 - Home
  - **Trigger**: 16h30
  - **Jours**: Lundi - Jeudi
